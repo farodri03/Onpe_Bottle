@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Ingeniería de Datos 2023-II</title>
-  <link rel="stylesheet" type="text/css" href="/styles.css">
-</head>
-<body>
-  <header>
-    <h1>App del Gimnasio ULIMA</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/partidopolitico">Partidos Políticos</a></li>
-      <li><a href="/ciudadano">Ciudadanos</a></li>
-      <li><a href="/actaelectoral">Actas electorales</a></li>
-      <li><a href="/miembro">Miembros</a></li>
-      <li><a href="/personero">Personeros</a></li>
 
-    </ul>
-  </nav>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+  <link rel="icon" href="./static/img/logOnpe.ico" type="image/icon type">
+  <style>
+    ::-webkit-scrollbar{
+        width: 14px;
+    }
+
+    ::-webkit-scrollbar-track{
+        background-color: rgba(83, 19, 30, 0.9);
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: #2a070d;
+        border-radius: 5px;
+    }
+</style>
+
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="navBar">
+      <ul class="list_nav">
+        <li class="items_nav">
+          <a href="/">Home</a>
+        </li>
+
+        <li class="items_nav">
+          <a href="/partidopolitico" class="nav_link">Partidos Políticos</a>
+        </li>
+
+        <li class="items_nav">
+          <a href="/ciudadano" class="nav_link">Ciudadanos</a>
+        </li>
+
+        <li class="items_nav">
+          <a href="/miembro" class="nav_link">Miembros</a>
+        </li>
+
+        <li class="items_nav">
+          <a href="/personero" class="nav_link">Personeros</a>
+        </li>
+
+        <li class="items_nav">
+          <a href="/actaelectoral" class="nav_link">Actas electorales</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
