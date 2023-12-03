@@ -12,13 +12,12 @@ app = Bottle()
 # Ruta para servir archivos estáticos
 @app.route('/:filename#.*#')
 def send_static(filename):
-  return static_file(filename, root='./views/static')
+  return static_file(filename, root='./views/static/css')
 
 # Ruta de inicio
 @app.route('/', method='GET')
 def home():
-  locals = {}  # {'title': 'Home'}
-  return template('home', locals)
+    return template('home')
 
 # Rutas de los subaplicativos
 if __name__ == '__main__':

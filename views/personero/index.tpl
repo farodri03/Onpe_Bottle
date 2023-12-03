@@ -16,7 +16,9 @@
         <td>{{tp[1]}}</td>
         <td>{{tp[2]}}</td>
         <td>{{tp[3]}}</td>
-        <td>{{tp[4]}} </td>
+        <td>
+          <img src="{{tp[4]}}" alt="{{tp[1]}}" width="100"
+        </td>
         <td>{{tp[5]}} </td>
       </tr>  
     % end

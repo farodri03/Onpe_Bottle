@@ -4,7 +4,6 @@ from database import engine
 
 sub_app = Bottle()
 
-
 @sub_app.route('/', method='GET')
 def personero():
   conn = engine.connect()
