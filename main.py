@@ -47,4 +47,10 @@ if __name__ == '__main__':
   app.mount('/ejercicio', ejercicio_app)
   app.mount('/partidopolitico', partidopolitico_app)
   app.mount('/ciudadano', ciudadano_app)
-  run(app, host='localhost', port=8080, debug=True, reloader=True)
+  try:
+    run(app, host='localhost', port=8080, debug=True, reloader=True)
+  except KeyboardInterrupt:
+    pass
+  finally:
+    app.close()
+    
