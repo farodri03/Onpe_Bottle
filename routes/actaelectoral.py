@@ -8,7 +8,6 @@ sub_app = Bottle()
 @sub_app.route('/', method='GET')
 def acta_electoral():
   conn = engine.connect()
-  # listar ejercicios
   stmt = text(("""
     SELECT AE.num_mesa_sufragio, AE.fecha_emision, AE.total_electores_habiles, AI.celula_recibidas, AI.observacion, AI.hora_instalacion, ASU.total_votos_ciudadanos,
 ASU.num_celulas_no_utilizadas,ASU.hora_fin,LV.direccion, DP.nombre FROM actas_electorales AE 
@@ -20,11 +19,7 @@ ASU.num_celulas_no_utilizadas,ASU.hora_fin,LV.direccion, DP.nombre FROM actas_el
   INNER JOIN departamentos DP ON P.departamento_id = DP.id
     ORDER BY AE.num_mesa_sufragio ASC
   """).format())
-  ejercicios = conn.execute(stmt)
-  locals = {'actas': ejercicios}
+  rs = conn.execute(stmt)
+  locals = {'actas': rs}
   return template('actas_electorales/index', locals)
 
-@sub_app.route('/agregar', method='GET')
-def acta_electoral_agregar():
-  locals = {'titulo': 'Agregar'}
-  return template('actas_electorales/detalle', locals)

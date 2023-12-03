@@ -1,7 +1,6 @@
 % include('_header.tpl')
 <h2>Actas Electorales</h2>
 <p>This is a simple HTML page.</p>
-<a href="/actaelectoral/agregar" class="button">Agregar Registro</a>
 <table>
   <thead>
     <th>Mesa de sufragio</th>
