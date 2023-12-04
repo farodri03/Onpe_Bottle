@@ -1,14 +1,13 @@
 % include('_header.tpl')
 <h2>Lista de Ciudadanos</h2>
-<p>This is a simple HTML page.</p>
 <a href="/ciudadano/agregar" class="button">Agregar Registro</a>
 <table>
   <thead>
-    <th>id</th>
-    <th>Nombres</th>
-    <th>Apellidos</th>
-    <th>dni</th>
-    <th>firma</th>
+    <th style="color: #fff;">id</th>
+    <th style="color: #fff;">Nombres</th>
+    <th style="color: #fff;">Apellidos</th>
+    <th style="color: #fff;">dni</th>
+    <th style="color: #fff;">firma</th>
   </thead>
   <tbody>
     % for tp in ciudadanos:

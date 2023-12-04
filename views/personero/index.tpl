@@ -1,13 +1,14 @@
 % include('_header.tpl')
+
 <h2>Lista de Personeros</h2>
 <table>
   <thead>
-    <th>id</th>
-    <th>Nombres</th>
-    <th>Apellidos</th>
-    <th>DNI</th>
-    <th>Firma</th>
-    <th>Nombre del partido</th>
+    <th style="color: #fff;">id</th>
+    <th style="color: #fff;">Nombres</th>
+    <th style="color: #fff;">Apellidos</th>
+    <th style="color: #fff;">DNI</th>
+    <th style="color: #fff;">Firma</th>
+    <th style="color: #fff;">Nombre del partido</th>
   </thead>
   <tbody>
     % for tp in personero:

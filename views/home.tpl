@@ -1,6 +1,6 @@
 <head>
-    <script src="views/static/js/app.js"></script>
-    <script src="views/static/js/particles.js"></script>
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/particles.js"></script>
     <title>Home</title>
 </head>
 
@@ -38,7 +38,7 @@
     <main>
         <section class="portadaHome">
             <div class="contenido">
-                
+
             </div>
         </section>
 

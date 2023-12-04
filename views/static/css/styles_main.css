@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ".Figtree", sans-serif;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    user-select: none;
+}
+
+footer {
+    font-family: ".Figtree", sans-serif;
+    background-color: #143c6c;
+    text-align: center;
+    user-select: none;
+    color: #ffffff;
+    margin-top: auto;
+    font-size: 12px;
+    padding: 20px;
+}
+
+/*NavBar*/
+a {
+    color: white;
+    text-decoration: none;
+    font-family: ".Figtree", sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    padding: 16px 18px;
+}
+
+.navBar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: #143c6c;
+}
+
+.list_nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.items_nav:hover {
+    background-color: #0c2442;
+    border-radius: 0.5rem;
+}
+
+.navBar li {
+    margin: 0 10px;
+    display: block;
+}
+
+/* Tables */
+table {
+    border-radius: 10px;
+    user-select: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+    color: #2a070d;
+    text-align: center;
+    user-select: none;
+}
+
+h2,
+h3 {
+    color: #53131e;
+    user-select: none;
+}
+
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+select {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-align: center;
+    padding: 20px;
+    background-color: #8f383b;
+}
+
+td {
+    text-align: center;
+    background-color: #af8080;
+    padding: 15px;
+}

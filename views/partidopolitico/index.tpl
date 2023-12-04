@@ -1,12 +1,11 @@
 % include('_header.tpl')
 <h2>Lista de Partidos Políticos</h2>
-<p>This is a simple HTML page.</p>
 <a href="/partidopolitico/agregar" class="button">Agregar Registro</a>
 <table>
   <thead>
-    <th>id</th>
-    <th>Nombre</th>
-    <th>Imagen del partido</th>
+    <th style="color: #fff;">id</th>
+    <th style="color: #fff;">Nombre</th>
+    <th style="color: #fff;">Imagen del partido</th>
 
   </thead>
   <tbody>

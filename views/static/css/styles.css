@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ".Figtree", sans-serif;
+    background-color: red;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    user-select: none;
+}
+
+footer {
+    font-family: ".Figtree", sans-serif;
+    background-color: #143c6c;
+    text-align: center;
+    user-select: none;
+    color: #ffffff;
+    margin-top: auto;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.footerStyle {
+    display: table;
+    width: 100%;
+    vertical-align: bottom;
+    margin: 1rem 0 1rem;
+    text-align: center;
+    color: #ffffff;
+}

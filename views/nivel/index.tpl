@@ -4,9 +4,9 @@
 <a href="/nivel/agregar" class="button">Agregar Registro</a>
 <table>
   <thead>
-    <th>id</th>
-    <th>Nombre</th>
-    <th>Operciones</th>
+    <th style="color: #fff;">id</th>
+    <th style="color: #fff;">Nombre</th>
+    <th style="color: #fff;">Operciones</th>
   </thead>
   <tbody>
     % for tp in niveles:

@@ -5,7 +5,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/styles.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/styles_main.css">
   <link rel="icon" href="./static/img/logOnpe.ico" type="image/icon type">
   <style>
     ::-webkit-scrollbar{
@@ -13,11 +13,11 @@
     }
 
     ::-webkit-scrollbar-track{
-        background-color: rgba(83, 19, 30, 0.9);
+        background-color: #255085;
     }
     
     ::-webkit-scrollbar-thumb{
-        background-color: #2a070d;
+        background-color: #0b2442;
         border-radius: 5px;
     }
 </style>
@@ -29,7 +29,7 @@
     <nav class="navBar">
       <ul class="list_nav">
         <li class="items_nav">
-          <a href="/">Home</a>
+          <a href="/" class="nav_link">Home</a>
         </li>
 
         <li class="items_nav">

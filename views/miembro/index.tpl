@@ -3,11 +3,11 @@
 
 <table>
   <thead>
-    <th>Nombres</th>
-    <th>Apellidos</th>
-    <th>DNI</th>
-    <th>Firma</th>
-    <th>Nombre del cargo</th>
+    <th style="color: #fff;">Nombres</th>
+    <th style="color: #fff;">Apellidos</th>
+    <th style="color: #fff;">DNI</th>
+    <th style="color: #fff;">Firma</th>
+    <th style="color: #fff;">Nombre del cargo</th>
   </thead>
   <tbody>
     % for tp in miembros:
