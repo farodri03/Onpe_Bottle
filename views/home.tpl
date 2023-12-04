@@ -1,3 +1,4 @@
+%include('_headerH.tpl')
 <head>
     <script src="/static/js/app.js"></script>
     <script src="/static/js/particles.js"></script>
@@ -38,13 +39,16 @@
     <main>
         <section class="portadaHome">
             <div class="contenido">
-
+                <img src="/static/img/logOnpe.png" alt="logo">
+                <h1 id="onpePro">CARTILLAS DE MIEMBROS DE MESA</h1>
+                <div id="particles"></div>
+                
             </div>
         </section>
 
         <section class="acercaDe">
             <div class="acercaImagen">
-                
+                <img src="/static/img/AuOnpe.png" alt="logo">
             </div>
             <div class="acercaContenido">
                 <h2 class="heading">About<span>Us</span></h2>

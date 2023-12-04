@@ -10,7 +10,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: ".Figtree", sans-serif;
-    background-color: red;
+}
+
+section .portadaHome{
+    min-height: 100vh;
 }
 
 .header {
@@ -20,6 +23,90 @@ body {
     margin: 0;
     z-index: 1;
     user-select: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: ".Figtree", sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    padding: 16px 18px;
+}
+
+.navBar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    background-color: rgba(27, 4, 8, 0);
+    transition: background-color 0.5s ease;
+}
+
+.list_nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.items_nav:hover {
+    background-color: #0c2442;
+    border-radius: 0.5rem;
+}
+
+.navBar li {
+    margin: 0 10px;
+    display: block;
+}
+
+.contenido {
+    position: relative;
+}
+
+.contenido img {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: auto;
+    opacity: 1;
+    pointer-events: none;
+    user-select: none;
+}
+
+#onpePro {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    user-select: none;
+}
+
+#particles {
+    z-index: 2;
+    height: 100%;
+    height: 100vh;
+    background: #761323;
 }
 
 footer {
@@ -40,4 +127,105 @@ footer {
     margin: 1rem 0 1rem;
     text-align: center;
     color: #ffffff;
+}
+
+section .acercaDe{
+    min-height: 800px;
+    justify-content: center;
+}
+
+span {
+    color: #761323;
+}
+
+.acercaDe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.acercaImagen img {
+    width: 350px;
+    border-radius: .5rem;
+    margin: 3.5rem;
+    justify-self: center;
+    align-self: center;
+    user-select: none;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: center;
+}
+
+.acercaContenido {
+    width: 600px;
+    margin: 2rem;
+    text-align: center;
+    margin-top: -2px;
+}
+.acercaContenido h2 {
+    text-align: center;
+    line-height: 1.2;
+}
+
+.acercaContenido h2::selection {
+    background-color: #761323;
+    color: #fff;
+}
+
+.acercaContenido span::selection {
+    background-color: #761323;
+    color: #fff;
+}
+
+.acercaContenido h3 {
+    font-size: 20px;
+    color: #2a070d;
+}
+
+.acercaContenido h3::selection {
+    background-color: #761323;
+    color: #fff;
+}
+
+.acercaContenido p{
+    margin: 2rem 0 2rem;
+    color: #130406;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    
+}
+
+.acercaContenido p::selection {
+    background-color: #761323;
+    color: #fff;
+}
+
+.btn {
+    background-color: #761323;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: #2a070d;
+    color: #fff;
+    opacity: 1;
 }
