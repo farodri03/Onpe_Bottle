@@ -8,6 +8,7 @@
   <main class="main">
     <section>
       <h2>Lista de Miembros</h2>
+      <a href="/miembro/agregar"><button class="agregarMiembro">Agregar Miembro</button></a>
       <table>
         <thead>
           <th style="color: #fff;">Nombres</th>

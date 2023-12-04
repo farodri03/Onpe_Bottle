@@ -56,7 +56,6 @@ footer {
     color: #ffffff;
 }
 
-/*NavBar*/
 a {
     color: white;
     text-decoration: none;
@@ -104,7 +103,6 @@ li a {
     display: block;
 }
 
-/* Tables */
 table {
     border-radius: 10px;
     user-select: none;
@@ -121,7 +119,7 @@ h1 {
 
 h2,
 h3 {
-    color: #53131e;
+    color: #8f383b;
     user-select: none;
 }
 
@@ -161,14 +159,6 @@ td a {
     padding: 8px;
 }
 
-.btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    user-select: none;
-    margin-bottom: 15px;
-}
-
 .btn {
     background-color: #5e503f;
     border: none;
@@ -184,8 +174,6 @@ td a {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .btn:hover {
@@ -193,3 +181,103 @@ td a {
     color: #fff;
     opacity: 1;
 }
+
+.agregarMiembro {
+    background-color: #955858;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 12px 22px;
+    text-align: center;
+    margin: 4px 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.agregarCiudadano {
+    background-color: #955858;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 12px 22px;
+    text-align: center;
+    margin: 4px 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.agregarPartido {
+    background-color: #955858;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 12px 22px;
+    text-align: center;
+    margin: 4px 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.agregarPartido:hover,
+.agregarCiudadano:hover,
+.agregarMiembro:hover {
+    background-color: #804c4c;
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #53131e;
+}
+
+label {
+    color: #53131e;
+    font-weight: bold;
+}
+
+p {
+    color: #ffffff;
+}
+
+h3 {
+    color: #53131e;
+}
+
+input,
+select {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 300px;
+}
+
+.formCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formIns {
+    background-color: #dfcebe;
+    padding: 20px;
+    border-radius: 5px;
+    user-select: none;
+}
+

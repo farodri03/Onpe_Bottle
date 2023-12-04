@@ -8,7 +8,7 @@
   <main class="main">
     <section>
       <h2>Lista de Partidos Políticos</h2>
-      <a href="/partidopolitico/agregar" class="button">Agregar Registro</a>
+      <a href="/partidopolitico/agregar"><button class="agregarPartido">Agregar Partido</button></a>
       <table>
         <thead>
           <th style="color: #fff;">id</th>
