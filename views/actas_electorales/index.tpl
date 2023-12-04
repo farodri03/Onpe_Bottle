@@ -7,8 +7,8 @@
 <body>
   <main class="main">
     <section>
-      <h2>Actas Electorales</h2>
-      <table class="center">
+      <h2 class="actasTitulo">Actas Electorales</h2>
+      <table class="center-table">
         <thead>
           <th style="color: #fff;">Mesa de sufragio</th>
           <th style="color: #fff;">Fecha de emisión</th>

@@ -1,4 +1,9 @@
 % include('_header.tpl')
+
+<head>
+  <title>Niveles</title>
+</head>
+
 <h2>Lista de Niveles</h2>
 <p>{{mensaje}}</p>
 <a href="/nivel/agregar" class="button">Agregar Registro</a>
@@ -7,6 +12,7 @@
     <th style="color: #fff;">id</th>
     <th style="color: #fff;">Nombre</th>
     <th style="color: #fff;">Operciones</th>
+    <th style="color: #fff;"> Acciones </th>
   </thead>
   <tbody>
     % for tp in niveles:
