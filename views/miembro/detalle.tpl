@@ -21,7 +21,7 @@
         <label for="name">Cargo:</label><br>
         <input type="text" name="cargo" value=""><br>
         <br><br>
-        <a href="/miembro"><button class="btn">Atras</button></a>
+        <a class="btn" href="/miembro">Atras</a>
         <button class="btn">Guardar Cambios</button>
       </form>
 

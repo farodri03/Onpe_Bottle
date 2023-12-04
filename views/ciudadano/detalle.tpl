@@ -19,7 +19,7 @@
         <label for="name">Firma_url:</label><br>
         <input type="text" name="firma_url" value=""><br>
         <br><br>
-        <a href="/ciudadano"><button class="btn">Atrás</button></a>
+        <a class="btn" href="/ciudadano">Atrás</a>
         <button class="btn">Guardar Cambios</button>
       </form>
     </div>

@@ -19,7 +19,7 @@
 
         <input type="text" name="imagen_url" value=""><br>
         <br><br>
-        <a href="/partidopolitico"><button class="btn">Atrás</button></a>
+        <a class="btn" href="/partidopolitico">Atrás</a>
         <button class="btn">Guardar Cambios</button>
       </form>
     </div>
