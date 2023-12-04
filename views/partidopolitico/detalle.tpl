@@ -5,9 +5,9 @@
 </head>
 
 <body>
-  <section>
-    <h2>{{titulo}} Partido Político</h2>
+  <section class="agregarContenido">
     <div class="formCont">
+      <h2 class="tituloAgregar">{{titulo}} Partido Político</h2>
       <form class="formIns" action="/partidopolitico/grabar" method="post">
         <input type="hidden" name="id" value="E"><br>
 
@@ -19,7 +19,7 @@
 
         <input type="text" name="imagen_url" value=""><br>
         <br><br>
-        <a href="/partidopolitico"><button class="btn">Atras</button></a>
+        <a href="/partidopolitico"><button class="btn">Atrás</button></a>
         <button class="btn">Guardar Cambios</button>
       </form>
     </div>

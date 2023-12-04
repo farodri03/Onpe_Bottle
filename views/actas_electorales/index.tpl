@@ -6,7 +6,7 @@
 
 <body>
   <main class="main">
-    <section>
+    <section class="tablasP">
       <h2 class="actasTitulo">Actas Electorales</h2>
       <table class="center-table">
         <thead>

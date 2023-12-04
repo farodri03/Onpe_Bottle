@@ -6,7 +6,7 @@
 
 <body>
   <main class="main">
-    <section>
+    <section class="tablasP">
       <h2>Lista de Miembros</h2>
       <a href="/miembro/agregar"><button class="agregarMiembro">Agregar Miembro</button></a>
       <table>

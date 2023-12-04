@@ -205,7 +205,7 @@ span {
 }
 
 .btn {
-    background-color: #761323;
+    background-color: #955858;
     border: none;
     border-radius: .5rem;
     color: #fff;
@@ -225,7 +225,7 @@ span {
 }
 
 .btn:hover {
-    background-color: #2a070d;
+    background-color: #804c4c;
     color: #fff;
     opacity: 1;
 }

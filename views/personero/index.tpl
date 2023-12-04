@@ -6,7 +6,7 @@
 
 <body>
   <main class="main">
-    <section>
+    <section class="tablasP">
       <h2>Lista de Personeros</h2>
       <table>
         <thead>

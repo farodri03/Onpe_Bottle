@@ -6,7 +6,7 @@
 
 <body>
   <main class="main">
-    <section>
+    <section class="tablasP">
       <h2>Lista de Ciudadanos</h2>
       <a href="/ciudadano/agregar"><button class="agregarCiudadano">Agregar Ciudadano</button></a>
       <table>

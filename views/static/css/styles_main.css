@@ -24,12 +24,20 @@ body {
     user-select: none;
 }
 
-section {
+section.tablasP {
     margin-top: 60px;
     min-height: 100vh;
     display: inline-block;
     justify-content: center;
     align-items: center;
+} 
+
+section {
+    min-height: 100vh; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 } 
 
 .main {
@@ -117,7 +125,11 @@ h1 {
     user-select: none;
 }
 
-h2,
+h2.tituloAgregar {
+    color: #8f383b;
+    user-select: none;
+}
+
 h3 {
     color: #8f383b;
     user-select: none;
@@ -149,7 +161,7 @@ th {
 
 td {
     text-align: center;
-    background-color: #b58888;
+    background-color: #d4a7a7;
     padding: 15px;
 }
 
@@ -160,7 +172,7 @@ td a {
 }
 
 .btn {
-    background-color: #5e503f;
+    background-color: #955858;
     border: none;
     border-radius: 8px;
     color: #fff;
@@ -269,15 +281,16 @@ select {
 }
 
 .formCont {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
 }
 
 .formIns {
-    background-color: #dfcebe;
+    background-color: #cfb3b3;
     padding: 20px;
     border-radius: 5px;
     user-select: none;
+    text-align: center;
 }
 

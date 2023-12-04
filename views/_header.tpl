@@ -5,7 +5,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/static/css/styles_main.css?v=1.0">
+  <link rel="stylesheet" type="text/css" href="/static/css/styles_main.css?v=2.0">
   <link rel="icon" href="./static/img/logOnpe.ico" type="image/icon type">
   <style>
     ::-webkit-scrollbar{

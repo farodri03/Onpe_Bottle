@@ -6,7 +6,7 @@
 
 <body>
   <main class="main">
-    <section>
+    <section class="tablasP">
       <h2>Lista de Partidos Políticos</h2>
       <a href="/partidopolitico/agregar"><button class="agregarPartido">Agregar Partido</button></a>
       <table>
