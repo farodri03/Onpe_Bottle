@@ -6,7 +6,6 @@ from routes.ciudadano import sub_app as ciudadano_app
 from routes.actaelectoral import sub_app as actaelectoral_app
 from routes.miembro import sub_app as miembro_app
 from routes.personero import sub_app as personero_app
-from routes.nivel import sub_app as niveles_app
 
 app = Bottle()
 
